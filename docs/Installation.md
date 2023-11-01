@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: "Instructions to set up react-native-track-player"
+description: "Instructions to set up react-native-track-player-private"
 nav_order: 2
 permalink: /install/
 redirect_from:
@@ -12,11 +12,11 @@ redirect_from:
 ## Installing the packages
 **1. Install the module from npm or yarn**
 ```
-npm install --save react-native-track-player
+npm install --save react-native-track-player-private
 ```
 
 ```
-yarn add react-native-track-player
+yarn add react-native-track-player-private
 ```
 
 **2. (iOS) Enable Swift Modules**
@@ -26,17 +26,17 @@ Because the iOS module uses Swift, if the user is using a standard react-native 
 ![Importing Swift](https://i.imgur.com/CBqBcWs.png)
 
 ## Automatic Link
-Since `react-native-track-player` only support RN 0.60 and above, the module should be autolinked :tada:
+Since `react-native-track-player-private` only support RN 0.60 and above, the module should be autolinked :tada:
 
 ## Unstable
 If you want to try the latest features, you can install the module directly from GitHub using:
 
 ```
-npm install --save react-native-kit/react-native-track-player#dev
+npm install --save react-native-kit/react-native-track-player-private#dev
 ```
 
 ```
-yarn add react-native-kit/react-native-track-player#dev
+yarn add react-native-kit/react-native-track-player-private#dev
 ```
 
 To update it, run the same command again.
@@ -44,7 +44,7 @@ To update it, run the same command again.
 ## Troubleshooting
 
 ### Expo and Expokit support
-Currently react-native-track-player does not support projects with Expo or Expokit.
+Currently react-native-track-player-private does not support projects with Expo or Expokit.
 
 ### iOS: (Enable Swift) `library not found for -lswiftCoreAudio for architecture x86_64`
 Because the iOS module uses Swift, if the user is using a standard react-native application they'll need to add support for Swift in the project. This can be easily by adding a swift file to the Xcode project -- could be called `dummy.swift` and saying yes when prompted if you'd like to generate a bridging header.
@@ -75,7 +75,7 @@ This error occurs when you're mixing both AndroidX and the Support Library in th
 You have to either upgrade everything to AndroidX or downgrade everything to the support library.
 
 
-* For react-native-track-player, the last version to run the support library is **1.1.4** and the first version to run AndroidX is **1.2.0**.
+* For react-native-track-player-private, the last version to run the support library is **1.1.4** and the first version to run AndroidX is **1.2.0**.
 * For react-native, the last version to run the support library is **0.59** and the first version to run AndroidX is **0.60**.
 
 You can also use [jetifier](https://github.com/mikehardy/jetifier#usage-for-source-files) to convert all of the native code to use only one of them.

@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: "Instructions to get started with react-native-track-player"
+description: "Instructions to get started with react-native-track-player-private"
 nav_order: 3
 permalink: /getting-started/
 redirect_from:
@@ -12,7 +12,7 @@ redirect_from:
 ## Starting off
 First of all, you need to set up the player. This usually takes less than a second:
 ```typescript
-import TrackPlayer from 'react-native-track-player';
+import TrackPlayer from 'react-native-track-player-private';
 
 await TrackPlayer.setupPlayer({})
 // The player is ready to be used
@@ -37,7 +37,7 @@ module.exports = async function() {
 ### Adding Tracks to the Playback Queue
 You can add a track to the player using a url or by requiring a file in the app bundle or on the file system.
 
-First of all, you need to create a [track object](https://react-native-track-player.js.org/react-native-track-player/documentation/#track-object), which is a plain javascript object with a number of properties describing the track. Then [add](https://react-native-track-player.js.org/react-native-track-player/documentation/#addtracks-insertbeforeid) the track to the queue:
+First of all, you need to create a [track object](https://react-native-track-player-private.js.org/react-native-track-player-private/documentation/#track-object), which is a plain javascript object with a number of properties describing the track. Then [add](https://react-native-track-player-private.js.org/react-native-track-player-private/documentation/#addtracks-insertbeforeid) the track to the queue:
 
 ```typescript
 var track = {
@@ -68,7 +68,7 @@ const track3 = {
     duration: 411
 };
 
-// You can then [add](https://react-native-track-player.js.org/react-native-track-player/documentation/#addtracks-insertbeforeindex) the items to the queue
+// You can then [add](https://react-native-track-player-private.js.org/react-native-track-player-private/documentation/#addtracks-insertbeforeindex) the items to the queue
 await TrackPlayer.add([track1, track2, track3]);
 ```
 
@@ -76,7 +76,7 @@ await TrackPlayer.add([track1, track2, track3]);
 
 ```typescript
 
-import TrackPlayer, { State } from 'react-native-track-player';
+import TrackPlayer, { State } from 'react-native-track-player-private';
 
 const state = await TrackPlayer.getState();
 if (state === State.Playing) {
@@ -127,11 +127,11 @@ console.log(`First title: ${tracks[0].title}`);
 ```
 #### Playback Events
 
-You can subscribe to [player events](https://react-native-track-player.js.org/react-native-track-player/documentation/#player), which describe the changing nature of the playback state. For example, subscribe to the `Event.PlaybackTrackChanged` event to be notified when the track has changed or subscribe to the `Event.PlaybackState` event to be notified when the player buffers, plays, pauses and stops.
+You can subscribe to [player events](https://react-native-track-player-private.js.org/react-native-track-player-private/documentation/#player), which describe the changing nature of the playback state. For example, subscribe to the `Event.PlaybackTrackChanged` event to be notified when the track has changed or subscribe to the `Event.PlaybackState` event to be notified when the player buffers, plays, pauses and stops.
 
 #### Example
 ```tsx
-import TrackPlayer, { Event } from 'react-native-track-player';
+import TrackPlayer, { Event } from 'react-native-track-player-private';
 
 const PlayerInfo = () => {
     const [trackTitle, setTrackTitle] = useState<string>();
@@ -158,7 +158,7 @@ The playback service keeps running even when the app is in the background. It wi
 
 #### Remote Events
 
-[Remote events](https://react-native-track-player.js.org/react-native-track-player/documentation/#media-controls) are sent from places outside of our user interface that we can react to. For example if the user presses the pause media control in the IOS lockscreen / Android notification or from their Bluetooth headset, we want to have TrackPlayer pause the audio.
+[Remote events](https://react-native-track-player-private.js.org/react-native-track-player-private/documentation/#media-controls) are sent from places outside of our user interface that we can react to. For example if the user presses the pause media control in the IOS lockscreen / Android notification or from their Bluetooth headset, we want to have TrackPlayer pause the audio.
 
 If you create a listener to a remote event like `remote-pause` in the context of a React component, there is a chance the UI will be unmounted automatically when the app is in the background, causing it to be missed. For this reason it is best to place remote listeners in the playback service, since it will keep running even when the app is in the background.
 
@@ -190,7 +190,7 @@ Music apps often need an automated way to show the progress of a playing track. 
 #### Example
 
 ```tsx
-import TrackPlayer, { useProgress } from 'react-native-track-player';
+import TrackPlayer, { useProgress } from 'react-native-track-player-private';
 
 const MyPlayerBar = () => {
     const progress = useProgress();
@@ -215,12 +215,12 @@ Track Player can be configured using a number of options. Some of these options 
 
 You can change options multiple times. You do not need to specify all the options, just the ones you want to change.
 
-For more information about the properties you can set, [check the documentation](https://react-native-track-player.js.org/react-native-track-player/documentation/#updateoptionsdata).
+For more information about the properties you can set, [check the documentation](https://react-native-track-player-private.js.org/react-native-track-player-private/documentation/#updateoptionsdata).
 
 #### Example
 
 ```typescript
-import TrackPlayer, { Capability } from 'react-native-track-player';
+import TrackPlayer, { Capability } from 'react-native-track-player-private';
 
 TrackPlayer.updateOptions({
     // Media controls capabilities

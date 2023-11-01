@@ -6,11 +6,11 @@ nav_exclude: true
 permalink: /
 ---
 
-[![downloads](https://img.shields.io/npm/dw/react-native-track-player.svg)](https://www.npmjs.com/package/react-native-track-player)
-[![npm](https://img.shields.io/npm/v/react-native-track-player.svg)](https://www.npmjs.com/package/react-native-track-player)
+[![downloads](https://img.shields.io/npm/dw/react-native-track-player-private.svg)](https://www.npmjs.com/package/react-native-track-player-private)
+[![npm](https://img.shields.io/npm/v/react-native-track-player-private.svg)](https://www.npmjs.com/package/react-native-track-player-private)
 [![discord](https://img.shields.io/discord/567636850513018880.svg)](https://discordapp.com/invite/ya2XDCR)
 
-# react-native-track-player
+# react-native-track-player-private
 
 A fully fledged audio module created for music apps. Provides audio playback, external media controls, background mode and more!
 
@@ -33,12 +33,12 @@ A fully fledged audio module created for music apps. Provides audio playback, ex
 
 ## Example
 
-If you want to get started with this module, check the [Getting Started](https://react-native-track-player.js.org/getting-started/) page.
-If you want detailed information about the API, check the [Documentation](https://react-native-track-player.js.org/react-native-track-player/documentation/).
-You can also look at our example project [here](https://github.com/react-native-kit/react-native-track-player/tree/master/example).
+If you want to get started with this module, check the [Getting Started](https://react-native-track-player-private.js.org/getting-started/) page.
+If you want detailed information about the API, check the [Documentation](https://react-native-track-player-private.js.org/react-native-track-player-private/documentation/).
+You can also look at our example project [here](https://github.com/react-native-kit/react-native-track-player-private/tree/master/example).
 
 ```javascript
-import TrackPlayer, { RepeatMode } from 'react-native-track-player';
+import TrackPlayer, { RepeatMode } from 'react-native-track-player-private';
 
 // Creates the player
 const setup = async () => {

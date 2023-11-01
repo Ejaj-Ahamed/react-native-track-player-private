@@ -35,7 +35,7 @@ permalink: /platform-support/
 | Miracast/DLNA | ✗ | ✗ | ✗ |
 | AirPlay | ✗ | ✗ | ✗ |
 
-¹: Google Cast support has been moved to [react-native-track-casting (WIP)](https://github.com/react-native-kit/react-native-track-casting) which can be used in combination with `react-native-track-player`.
+¹: Google Cast support has been moved to [react-native-track-casting (WIP)](https://github.com/react-native-kit/react-native-track-casting) which can be used in combination with `react-native-track-player-private`.
 
 ## Miscellaneous
 
@@ -45,7 +45,7 @@ permalink: /platform-support/
 | Caching | ✓ | ✗ | ✗ |
 | Background Mode¹ | ✓ | ✓ | ✓ |
 
-¹: Read more in [Background Mode](https://react-native-track-player.js.org/react-native-track-player/background/)
+¹: Read more in [Background Mode](https://react-native-track-player-private.js.org/react-native-track-player-private/background/)
 
 ## Functions
 

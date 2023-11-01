@@ -17,7 +17,7 @@ import TrackPlayer, {
   usePlaybackState,
   useProgress,
   useTrackPlayerEvents,
-} from 'react-native-track-player';
+} from 'react-native-track-player-private';
 
 // @ts-ignore
 import playlistData from './react/data/playlist.json';

@@ -1,10 +1,10 @@
-title: react-native-track-player
+title: react-native-track-player-private
 remote_theme: pmarsceill/just-the-docs
 logo: "/assets/optimized-logo.svg"
 
 gh_edit_link: true
 gh_edit_link_text: "Improve this page"
-gh_edit_repository: "https://github.com/react-native-kit/react-native-track-player"
+gh_edit_repository: "https://github.com/react-native-kit/react-native-track-player-private"
 gh_edit_branch: "main"
 gh_edit_view_mode: "edit"
 
@@ -12,11 +12,11 @@ aux_links:
   "discord":
     - "https://discordapp.com/invite/ya2XDCR"
   "npm":
-    - "https://www.npmjs.com/package/react-native-track-player"
+    - "https://www.npmjs.com/package/react-native-track-player-private"
   "github":
-    - "https://github.com/react-native-kit/react-native-track-player"
+    - "https://github.com/react-native-kit/react-native-track-player-private"
   "sponsors":
-    - "https://react-native-track-player.js.org/backers-sponsors.html"
+    - "https://react-native-track-player-private.js.org/backers-sponsors.html"
 
 plugins:
   - jekyll-redirect-from

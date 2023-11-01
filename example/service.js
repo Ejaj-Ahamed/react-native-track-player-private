@@ -1,4 +1,4 @@
-import TrackPlayer, {Event, State} from 'react-native-track-player';
+import TrackPlayer, {Event, State} from 'react-native-track-player-private';
 
 let wasPausedByDuck = false;
 

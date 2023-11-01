@@ -127,7 +127,7 @@ public class Track extends TrackMetadata {
     public MediaSource toMediaSource(Context ctx, LocalPlayback playback) {
         // Updates the user agent if not set
         if(userAgent == null || userAgent.isEmpty())
-            userAgent = Util.getUserAgent(ctx, "react-native-track-player");
+            userAgent = Util.getUserAgent(ctx, "react-native-track-player-private");
 
         DataSource.Factory ds;
 

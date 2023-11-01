@@ -62,7 +62,7 @@ export const useTrackPlayerEvents = (events: Event[], handler: Handler) => {
           'One or more of the events provided to useTrackPlayerEvents is ' +
             `not a valid TrackPlayer event: ${invalidTypes.join("', '")}. ` +
             'A list of available events can be found at ' +
-            'https://react-native-kit.github.io/react-native-track-player/documentation/#events',
+            'https://react-native-kit.github.io/react-native-track-player-private/documentation/#events',
         )
       }
     }

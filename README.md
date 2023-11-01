@@ -1,7 +1,7 @@
 <img src="docs/assets/optimized-logo.svg" width="300" />
 
-[![downloads](https://img.shields.io/npm/dw/react-native-track-player.svg)](https://www.npmjs.com/package/react-native-track-player)
-[![npm](https://img.shields.io/npm/v/react-native-track-player.svg)](https://www.npmjs.com/package/react-native-track-player) 
+[![downloads](https://img.shields.io/npm/dw/react-native-track-player-private.svg)](https://www.npmjs.com/package/react-native-track-player-private)
+[![npm](https://img.shields.io/npm/v/react-native-track-player-private.svg)](https://www.npmjs.com/package/react-native-track-player-private) 
 [![discord](https://img.shields.io/discord/567636850513018880.svg)](https://discordapp.com/invite/ya2XDCR)
 
 A fully-fledged audio module created for music apps. Provides audio playback, external media controls, background mode and more!
@@ -64,7 +64,7 @@ import TrackPlayer, {
 +  RatingType,
 +  Event,
 +  RepeatMode
-} from 'react-native-track-player'
+} from 'react-native-track-player-private'
 
 // Hooks
 
@@ -94,12 +94,12 @@ import TrackPlayer, {
 
 ## Quick Guides
 
-* [Installation](https://react-native-track-player.js.org/install/)
-* [Getting Started](https://react-native-track-player.js.org/getting-started/)
-* [Documentation](https://react-native-track-player.js.org/documentation/)
-* [Platform Support](https://react-native-track-player.js.org/platform-support/)
-* [Background Mode](https://react-native-track-player.js.org/background/)
-* [Build Preferences](https://react-native-track-player.js.org/build-preferences/)
+* [Installation](https://react-native-track-player-private.js.org/install/)
+* [Getting Started](https://react-native-track-player-private.js.org/getting-started/)
+* [Documentation](https://react-native-track-player-private.js.org/documentation/)
+* [Platform Support](https://react-native-track-player-private.js.org/platform-support/)
+* [Background Mode](https://react-native-track-player-private.js.org/background/)
+* [Build Preferences](https://react-native-track-player-private.js.org/build-preferences/)
 
 ## Why another music module?
 After trying to team up modules like `react-native-sound`, `react-native-music-controls` and `react-native-google-cast`, I've noticed, that their structure and the way should be tied together can cause a lot of problems (mainly on Android). Those can heavily affect the app stability and user experience.
@@ -112,16 +112,16 @@ All audio modules (like `react-native-sound`) don't play in a separated service 
 
 ## First Steps
 
-If you want to get started with this module, check the [Getting Started](https://react-native-track-player.js.org/getting-started/) page.
+If you want to get started with this module, check the [Getting Started](https://react-native-track-player-private.js.org/getting-started/) page.
 
-If you want detailed information about the API, check the [Documentation](https://react-native-track-player.js.org/documentation/). You can also look at our example project [here](/example).
+If you want detailed information about the API, check the [Documentation](https://react-native-track-player-private.js.org/documentation/). You can also look at our example project [here](/example).
 
 ## Example
 
 A basic example of how to play a track:
 
 ```javascript
-import TrackPlayer from 'react-native-track-player';
+import TrackPlayer from 'react-native-track-player-private';
 
 const start = async () => {
     // Set up the player
@@ -161,4 +161,4 @@ start();
 </table>
 
 ## Community
-You can find us as part of the [React Native Folks](https://discordapp.com/invite/ya2XDCR) Discord in the `#react-native-track-player` channel.
+You can find us as part of the [React Native Folks](https://discordapp.com/invite/ya2XDCR) Discord in the `#react-native-track-player-private` channel.

@@ -3,7 +3,7 @@ title: Backers and Sponsors
 nav_exclude: true
 ---
 
-# react-native-track-player Backers and Sponsors
+# react-native-track-player-private Backers and Sponsors
 
 Thanks to our backers and sponsors for their generous support!
 

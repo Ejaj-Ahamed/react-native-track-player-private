@@ -3,22 +3,22 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "postinstall": "rm -rf node_modules/react-native-track-player/{example,node_modules}",
+    "postinstall": "rm -rf node_modules/react-native-track-player-private/{example,node_modules}",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "windows": "react-native run-windows",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "sync:ios": "yarn rimraf ../ios && yarn cpx 'node_modules/react-native-track-player/ios/**' ../ios",
-    "sync:android": "yarn rimraf ../android && yarn cpx 'node_modules/react-native-track-player/android/**' ../android",
+    "sync:ios": "yarn rimraf ../ios && yarn cpx 'node_modules/react-native-track-player-private/ios/**' ../ios",
+    "sync:android": "yarn rimraf ../android && yarn cpx 'node_modules/react-native-track-player-private/android/**' ../android",
     "sync": "yarn sync:ios && yarn sync:android"
   },
   "dependencies": {
     "@react-native-community/slider": "4.0.0-rc.3",
     "react": "17.0.2",
     "react-native": "0.65.1",
-    "react-native-track-player": "file:..",
+    "react-native-track-player-private": "file:..",
     "react-native-windows": "^0.64.0-0"
   },
   "devDependencies": {

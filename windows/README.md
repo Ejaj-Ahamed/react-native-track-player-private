@@ -1,16 +1,16 @@
-# react-native-track-player Windows Implementation
+# react-native-track-player-private Windows Implementation
 
 ## Module Installation
 You can either use autolinking on react-native-windows 0.63 and later or manually link the module on earlier releases.
 
 ## Automatic install with autolinking on RNW >= 0.63
-RNTrackPlayer supports autolinking. Just call: `npm i react-native-track-player --save`
+RNTrackPlayer supports autolinking. Just call: `npm i react-native-track-player-private --save`
 
 ## Manual installation on RNW >= 0.62
-1. `npm install react-native-track-player --save`
+1. `npm install react-native-track-player-private --save`
 2. Open your solution in Visual Studio 2019 (eg. `windows\yourapp.sln`)
 3. Right-click Solution icon in Solution Explorer > Add > Existing Project...
-4. Add `node_modules\react-native-track-player\windows\RNTrackPlayer\RNTrackPlayer.vcxproj`
+4. Add `node_modules\react-native-track-player-private\windows\RNTrackPlayer\RNTrackPlayer.vcxproj`
 5. Right-click main application project > Add > Reference...
 6. Select `RNTrackPlayer` in Solution Projects
 7. In app `pch.h` add `#include "winrt/RNTrackPlayer.h"`

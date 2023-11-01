@@ -1,6 +1,6 @@
 ---
 title: API Documentation
-description: "The API documentation for react-native-track-player"
+description: "The API documentation for react-native-track-player-private"
 nav_order: 3
 permalink: /documentation/
 redirect_from:
@@ -320,7 +320,7 @@ Gets the playback rate, where 1 is the regular speed.
 #### `getDuration()`
 Gets the duration of the current track in seconds.
 
-Note: `react-native-track-player` is a streaming library, which means it slowly buffers the track and doesn't know exactly when it ends.
+Note: `react-native-track-player-private` is a streaming library, which means it slowly buffers the track and doesn't know exactly when it ends.
 The duration returned by this function is determined through various tricks and *may not be exact or may not be available at all*.
 
 You should only trust the result of this function if you included the `duration` property in the [Track Object](#track-object).
@@ -347,7 +347,7 @@ Gets the state of the player.
 All event types are made available through the named export `TrackPlayerEvents`:
 
 ```js
-import { Event } from 'react-native-track-player';
+import { Event } from 'react-native-track-player-private';
 ```
 
 ### Media Controls
@@ -548,7 +548,7 @@ Check out the [events section](#events) for a full list of supported events.
 ```jsx
 import React, { useState } from 'react';
 import { Text, View } from 'react-native';
-import { useTrackPlayerEvents, TrackPlayerEvents, STATE_PLAYING } from 'react-native-track-player';
+import { useTrackPlayerEvents, TrackPlayerEvents, STATE_PLAYING } from 'react-native-track-player-private';
 
 // Subscribing to the following events inside MyComponent
 const events = [
@@ -592,7 +592,7 @@ A hook alternative to the the deprecated [Progress Component](#progresscomponent
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { useProgress } from 'react-native-track-player';
+import { useProgress } from 'react-native-track-player-private';
 
 const MyComponent = () => {
   const { position, buffered, duration } = useProgress()
